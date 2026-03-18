@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Datasets — downloaded at runtime, not committed (see README)
+/data/
+/maps/
+*.tar.gz
+*.zip
+
+# Trained model weights
+*.pth
+*.pt
+*.ckpt
+
+# Training output — generated when running train.py
+/samples/
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
