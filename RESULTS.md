@@ -55,7 +55,7 @@ Evaluated on 100 held-out validation pairs (maps dataset).
 | Parameters | 57.2 M | 28.3 M |
 | Supervision | paired | unpaired |
 
-![Quantitative comparison](Quantitative_comparison.png)
+![Quantitative comparison](assets/Quantitative_comparison.png)
 
 **SSIM** (Structural Similarity Index) — measures perceived structural similarity (luminance, contrast, structure). Range [−1, 1], higher is better.
 
@@ -67,7 +67,7 @@ Pix2Pix edges CycleGAN on PSNR because direct L1 supervision minimises per-pixel
 
 **Visual comparison (Input map → Real satellite → Pix2Pix → CycleGAN):**
 
-![Visual comparison](Visual_comparison.png)
+![Visual comparison](assets/Visual_comparison.png)
 
 ---
 
